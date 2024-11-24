@@ -23,3 +23,19 @@ yarn-error.log
 /.zed
 
 .idea/
+# MySQL temporary files
+docker/mysql/#*
+docker/mysql/ib*
+docker/mysql/binlog.*
+docker/mysql/undo_*
+
+# Specific MySQL directories
+docker/mysql/#innodb_temp/
+docker/mysql/#innodb_redo/
+
+# Nginx logs
+docker/nginx/logs/*.log
+
+# General logs or temporary files
+*.log
+*.tmp
