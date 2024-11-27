@@ -18,12 +18,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-//Route::prefix('contact')->middleware('auth')
-//    ->Controller(ContactFormController::class)
-//    ->name('contact.')
-//    ->group(function () {
-//        Route::get('/', 'index')->name('index');
-//    });
+Route::prefix('contact')->middleware('auth')
+    ->controller(ContactFormController::class)
+    ->name('contact.')
+    ->group(function () {
+        Route::get('/', 'index')->name('index');
+    });
 
 
 require __DIR__.'/auth.php';
