@@ -39,3 +39,4 @@ docker/nginx/logs/*.log
 # General logs or temporary files
 *.log
 *.tmp
+/docker/
