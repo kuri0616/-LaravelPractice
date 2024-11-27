@@ -106,3 +106,4 @@
 192.168.65.1 - - [27/Nov/2024:12:16:03 +0000] "GET /dashboard HTTP/1.1" 200 63718 "http://localhost/register" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 192.168.65.1 - - [27/Nov/2024:12:16:11 +0000] "GET / HTTP/1.1" 200 71069 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 192.168.65.1 - - [27/Nov/2024:12:16:17 +0000] "GET /contact HTTP/1.1" 200 47788 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+192.168.65.1 - - [27/Nov/2024:12:17:19 +0000] "GET /contact HTTP/1.1" 200 48170 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
